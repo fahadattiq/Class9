@@ -30,6 +30,11 @@ public class Lec7Swag1 extends Lec7Pclass{
 	driver.findElement(By.id("logout_sidebar_link")).click();
 	}
 	
+	@Test
+	public void CloseallBrowserwindows() {
+		driver.close();
+	}
+	
 	}
 
 
