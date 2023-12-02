@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Automation.FirstProj.Lec7Pclass">
+        <methods>
+          <include name="logincase"/>
+          <include name="InvalidCred"/>
+          <include name="ClearplaceHolders"/>
+          <include name="movetocheckout"/>
+          <include name="LoginButton"/>
+          <include name="openswaglink"/>
+          <include name="MaximizePage"/>
+          <include name="CancelIntimation"/>
+        </methods>
+      </class> <!-- Automation.FirstProj.Lec7Pclass -->
+      <class name="Automation.FirstProj.Lec7Swag">
+        <methods>
+          <include name="InvalidCred"/>
+          <include name="ClearplaceHolders"/>
+          <include name="LoginButton"/>
+          <include name="openswaglink"/>
+          <include name="MaximizePage"/>
+          <include name="CancelIntimation"/>
+        </methods>
+      </class> <!-- Automation.FirstProj.Lec7Swag -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
